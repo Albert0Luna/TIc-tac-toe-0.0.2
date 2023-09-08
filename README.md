@@ -1,8 +1,24 @@
-# React + Vite
+# TIKTAKTOE - TDD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a TicTacToe project developed with a Test-Driven Development (TDD) approach.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project has the following directory and file structure:
+
+
+src/ │ ├── components/ │ ├── TicTacToe.jsx │ └── RenderBoard.jsx │ ├── hooks/ │ └── useResetGame.js │ └── styles/
+
+
+## Components
+
+- `TicTacToe.jsx`: This is the main component that represents the TicTacToe game.
+- `RenderBoard.jsx`: This component is responsible for rendering the game board.
+
+## Hooks
+
+- `useResetGame.js`: This is a custom hook that provides the functionality to reset the game.
+
+## Styles
+
+The styles of the project are located in the `styles/` directory.
