@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #ffe200;
+    color: #06171f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
